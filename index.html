@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clima</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/clima.ico">
+    <link href="INDEX.CSS" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="onLoad()">
+    <div id="container">
+        <div class="block">
+            <div id="location"></div>
+            Date:
+            <div id="date"></div>
+            Cloudiness:
+            <div id="description"></div>
+
+        </div>
+        <div class="block">
+            <div class="information-container">
+                Humidity:
+                <div class="info" id="humidity"></div>
+            </div>
+            <div class="information-container">
+                Pressure:
+                <div class="info" id="pressure"></div>
+            </div>
+            <div class="information-container">
+                Temperature: C°
+                <div class="info" id="temperature"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div id="loader" class="loader">Loading...</div>
+    <script src="INDEX.JS"></script>
+</body>
+
+</html>
